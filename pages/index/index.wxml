@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<image style="{{bgimg+'opacity:0.6;background-size:100% 100%;'}}" class='bg'></image>
+<view class="container">
+  <image src="http://s3.music.126.net/m/s/img/disc-ip6.png" mode='aspectFit' id='disc1' bindtap="{{bind}}"></image>
+  <image src="http://s3.music.126.net/m/s/img/needle-ip6.png" mode='aspectFit' id='disc2'></image>
+  <image src="{{imgurl}}" mode='aspectFit' id='cover'></image>
+  <image src="{{playbut}}" mode='aspectFit' id='playbut' hidden='{{hide}}'></image>
+  <view class='tab'>
+    <text id='song'>{{title}}</text>
+    <text id='singer'>{{singer}}</text>
+    <text id='epname'>{{epname}}</text>
+  </view>
+</view>
